@@ -2,9 +2,7 @@
 def Anagram
   attr_accessor :word
   
-  def initialize(word)
-    @word = word
-  end  
+  
   
   def self.match(word_arr)
     new_arr = self.split("").sort
